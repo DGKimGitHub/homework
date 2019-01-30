@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTC-8">
+    <title>Max Temperature Page</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="data.html">Data</a></li>
+                    <li><a href="comparison.html">Comparison</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Max_Temperature.html">Max Temperature</a></li>
+                            <li><a href="Humidity.html">Humidity</a></li>
+                            <li><a href="cloudiness.html">Cloudiness</a></li>
+                            <li><a href="Windspeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <h1>Max Temperature</h1>
+                <img src="max_temp.png" float: left width="200px" height="150px">
+                <br> <br>
+
+                This project`s aim was to analyze the weather when we approach to the equator.
+
+                <br> <br> <br>
+                To make a this analysis happen we have colleced data from the OpenWeatherMap API about 500+ cities
+                across the globe randomly.
+
+                <br> <br> <br>
+                We compare plots latitude vs temperature, humidity, cloudiness, windspeed. We can conclude that
+                latitude effects none of these variables but the temperature.
+            </div>
+            <div class="col-md-4 sidebar">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Visualizations</h1>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <a href="Max_Temperature.html">Max Temperature<img src="max_temp.png" width="200px" height="150px"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+
+                    <div class="col-md-3">
+                        <a href="Humidity.html">Humidity<img src="humidity.png" width="200px" height="150px"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <a href="Cloudiness.html">Cloudiness<img src="cloudiness.png" width="200px" height="150px"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+
+                    <div class="col-md-3">
+                        <a href="Windspeed.html">Wind Speed<img src="wind_speed.png" width="200px" height="150px"></a>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+</body>
+<html>

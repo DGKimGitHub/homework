@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTC-8">
+    <title>Comparison Page</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Latitude</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                                <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="Max_Temperature.html">Latitude Max_Temperature</a></li>
+                                <li><a href="Humidity.html">Latitude Humidity</a></li>
+                                <li><a href="cloudiness.html">Latitude Cloudiness</a></li>
+                                <li><a href="Windspeed.html">Latitude Windspeed</a></li>
+                            </ul>
+                    </li>
+                </ul>
+    </nav>
+
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box">
+                        <div class="header">
+                            <h1 class="title">Comparison: Latitude vs. X</h1>
+                            <p class="category">Click any plot to get in-depth analysis.</p>
+                        </div>
+
+
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <h2> Lat vs. Max Temperature</h2>
+                                    <a href="Max_Temperature.html"><img class="img-fluid" src="max_temp.png" alt="Latitude vs. Max Temperature"
+                                            height="500" width="500"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <h2>Lat vs. Humidity</h2>
+                                    <a href="Humidity.html"><img class="img-fluid" src="humidity.png" alt="Latitude vs. Humidity"
+                                            height="500" width="500"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <h2>Lat vs. Cloudiness</h2>
+                                    <a href="Cloudiness.html"><img class="img-fluid" src="cloudiness.png" alt="Latitude   vs. Cloudiness"
+                                            height="500" width="500"></a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6">
+                                    <h2>Lat vs. Wind Speed</h2>
+                                    <a href="Windspeed.html"><img class="img-fluid" src="wind_speed.png" alt="Latitude vs. Wind Speed"
+                                            height="500" width="500"></a>
+                                </div>
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--  Charts Plugin -->
+<script src="assets/js/chartist.min.js"></script>
+
+<!--  Notifications Plugin    -->
+<script src="assets/js/bootstrap-notify.js"></script>
+
+<!--  Google Maps Plugin    -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+<html>
